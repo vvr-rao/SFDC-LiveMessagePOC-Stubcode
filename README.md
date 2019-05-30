@@ -1,7 +1,7 @@
 # SFDC-LiveMessagePOC-Stubcodes
 
 This is a backup of code written for a POC of Salesforce LiveMessage. LiveMessage is a product available from Salesforce enabling sending of text messages. 
-The project did get implemented eventually. Only a snapshot of the code has been saved here to prevent access to sensitive data. Final code has not been saved since it contains proprietary data
+The project did get implemented eventually. Only a snapshot of the code has been saved here. Final code has not been saved since it contains proprietary client information
 
 Purpose of the POC was to 
 1) Demostrate feasibility of sending out SMSes from Salesforce using Live Message. Note: Due to compliance reasons, client did not wish to have an agent talking to the end customer via chat. Therefore, SMSes had to be sent out programatically with a disclaimer that replies would not be monitored. 
