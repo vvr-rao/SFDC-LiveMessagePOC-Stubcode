@@ -1,0 +1,3 @@
+<apex:page standardController="LiveText__SMS_Message__c" extensions="ListButtonController"
+           action="{!doSomething}" recordSetVar="TestRecords" />
+                                        

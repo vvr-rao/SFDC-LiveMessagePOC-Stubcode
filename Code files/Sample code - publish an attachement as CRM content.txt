@@ -1,0 +1,32 @@
+
+//Stub Code tested using ExecuteAnonymous
+// Assumes that there is an existing attachment and adequate licences
+
+
+Attachment att_fromdb = [select id, Name, body from Attachment where id = '00P1D000000d2wZUAQ'];
+
+ContentVersion cv = new ContentVersion();
+
+cv.Title = att_fromdb.Name;
+cv.PathOnClient = att_fromdb.Name;
+cv.VersionData = att_fromdb.body;
+
+//cv.RecordTypeId = 'your_record_type_id';
+//cv.FirstPublishLocationId = 'your_workspace_id';
+
+insert cv;
+
+
+system.debug('Content Version id: ' + cv.id);
+
+ContentDistribution cd = new ContentDistribution();
+cd.name = cv.id;
+cd.ContentVersionId = cv.id;
+cd.PreferencesAllowOriginalDownload = false;
+cd.PreferencesAllowPDFDownload = false;
+cd.PreferencesAllowViewInBrowser = true;
+insert cd;
+
+cd = [SELECT DistributionPublicUrl FROM ContentDistribution WHERE ID = :cd.Id];
+
+System.debug('This is the public URL: ' + cd.DistributionPublicUrl);

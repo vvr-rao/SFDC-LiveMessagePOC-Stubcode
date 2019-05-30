@@ -1,0 +1,13 @@
+//Code tested in ExecuteAnonymous
+
+contact c = new contact();
+List<ScheduleItem> lstSI = new List<ScheduleItem>();
+LiveText__ScheduleMessageAction schMessage = new LiveText__ScheduleMessageAction();
+LiveText__ScheduleItem TxtMessage = new LiveText__ScheduleItem();
+
+TxtMessage.ObjectId = '0031I000003CkYR';
+TxtMessage.ReferenceId = '0031I000003CkYR - 001';
+//TxtMessage.LiveTextNumber
+TxtMessage.ToPhoneNumber = 'xxxxxxx';
+TxtMessage.Message = 'Test Automated message';
+    
