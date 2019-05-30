@@ -1,4 +1,4 @@
-# SFDC-LiveMessagePOC-Stubcodes
+# SFDC-LiveMessagePOC-Stubcode
 
 This is a backup of code written for a POC of Salesforce LiveMessage. LiveMessage is a product available from Salesforce enabling sending of text messages. 
 The project did get implemented eventually. Only a snapshot of the code has been saved here. Final code has not been saved since it contains proprietary client information
@@ -9,12 +9,12 @@ Purpose of the POC was to
 
 Explanation of Files:
 
-    'ResendSMS Button Page' & 'Resend SMS Controller' : 
+    File #1 & File #2 - 'ResendSMS Button Page' & 'Resend SMS Controller' : 
         List button VF Page and Controller to invoke send of a message via a button push. 
     (the prerequiste is to set up a number. This is documented in the Live Message Admin guide. Id of the entry was hardcoded for POC purposes)
     
-     'Sample code- invoke Live Message to send an SMS message programatically' : 
+    File #3 - 'Sample code- invoke Live Message to send an SMS message programatically' : 
         Stub code tested via Execute Anonymous
      
-     'Sample code - publish an attachement as CRM content' : 
+    File # 4 - 'Sample code - publish an attachement as CRM content' : 
         Stub code tested via Execute Anonymous. Publishes an attachment as a CRM content link.
