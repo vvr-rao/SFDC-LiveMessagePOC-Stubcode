@@ -5,7 +5,7 @@ The project did get implemented eventually. Only a snapshot of the code has been
 
 Purpose of the POC was to 
 1) Demostrate feasibility of sending out SMSes from Salesforce using Live Message. Note: Due to compliance reasons, client did not wish to have an agent talking to the end customer via chat. Therefore, SMSes had to be sent out programatically with a disclaimer that replies would not be monitored. 
-2) A Secondary goal was to send out Salesforce hosted content via SMS to external parties. Content was stored in Attachments. File #3 shows how to publish an attachment via CRM content. Code may be tweaked for Salesforce Files. 
+2) A Secondary goal was to send out Salesforce hosted content via SMS to external parties. Content was stored in Attachments. File #4 shows how to publish an attachment via CRM content. Code may be tweaked for Salesforce Files. 
 
 Explanation of Files:
 
