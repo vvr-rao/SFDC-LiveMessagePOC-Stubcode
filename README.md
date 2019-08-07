@@ -18,3 +18,6 @@ Explanation of Files:
      
     File # 4 - 'Sample code - publish an attachement as CRM content' : 
         Stub code tested via Execute Anonymous. Publishes an attachment as a CRM content link.
+
+
+Aug 07, 2019 Update: This product is set to be replaced with a new Lightning optimized product called Messaging (part of the Digital Engagement product) which will have a new Object model and backend. The existing customers will still be supported so the code is still valid. However, the code will not work for the new product.
